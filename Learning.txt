@@ -16,6 +16,6 @@ cmd commands: ls shows current files
 touch hey.txt makes
 rm hey.txt removes
 mkdir o | makes folder
-rmdir o | removes, if anything inside add -s
+rmdir o | removes, if anything inside add /S
 sublime: highlight, ctrl-d 
 git rebase master < get all changes.
