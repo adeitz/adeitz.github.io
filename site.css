@@ -1,23 +1,23 @@
 body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
-    background-color: dimgrey; 
-    color: #696969;
+    background-color: #000000; 
+    color: #ffffff;
     padding: 3px;
 }
 
 #main {
-    padding: 5px;
-    padding-left:  15px;
-    padding-right: 15px;
-    background-color: #ffffff;
-    border-radius: 0 0 5px 5px;
+    padding: 10px;
+    padding-left:  30px;
+    padding-right: 50px;
+    background-color: #0000F0;
+    border-radius: 5px 10px 0px 30px; /*top left, top right, bottom right bottom left (clockwise) */
 }
 
 h1 {
     font-family: Georgia, serif;
-    border-bottom: 3px solid #cc9900;
-    color: #996600;
+    border-bottom: 3px solid #00FFFF;
+    color: #0000ff;
     font-size: 30px;
 }
 table {
