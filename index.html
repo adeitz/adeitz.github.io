@@ -6,27 +6,46 @@
   <link href="site.css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="init()">s
 
   <div id="main">
   <h1>Why hello there</h1>
   <h2>Look at these things I have:</h2>
-
+  
+  <script src="tabs.js"></script>
   <div>
-    <ul id="main_nav_list">
-      <li><a class="main_nav_item" href="./index.html" shape="rect">Home</a></li>
-      <li><a class="main_nav_item" href="./customers.html" id="mni2" shape="rect">News</a></li>
+    <ul id="tabs">
+      <li><a href="#about">About JavaScript tabs</a></li>
+      <li><a href="#advantages">Advantages of tabs</a></li>
       </ul></div>
+      <!-- <li><a href="./index.html" shape="rect">Home</a></li>
+      <li><a href="./customers.html" shape="rect">News</a></li>-->
   <div>
     <br>
     <ul>
       <li><a href="./about.html">About</a></li>
+      <li><p> <script>body.nodeType== Node.ELEMENT_NODE</script></p></li>
       <li><p>Pages (HTML)</p></li>
       <li><p>Style Sheets (CSS)</p></li>
       <li><p>Computer Code (JavaScript)</p></li>
       <li><p>Live Data (Files and Databases)</p></li>
       <footer id="foot01"></footer>
       </ul></div>
+    </div>
+    <div class="tabContent" id="about">
+      <h2>About JavaScript tabs</h2>
+      <div>
+        <p>JavaScript tabs partition your Web page content into tabbed sections. Only one section at a time is visible.</p>
+        <p>The code is written in such a way that the page degrades gracefully in browsers that don't support JavaScript or CSS.</p>
+      </div>
+    </div>
+
+    <div class="tabContent" id="advantages">
+      <h2>Advantages of tabs</h2>
+      <div>
+        <p>JavaScript tabs are great if your Web page contains a large amount of content.</p>
+        <p>They're also good for things like multi-step Web forms.</p>
+      </div>
     </div>
 
 
