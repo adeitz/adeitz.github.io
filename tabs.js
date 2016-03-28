@@ -1,4 +1,4 @@
-    <script>
+    
     var tabLinks = new Array();
     var contentDivs = new Array();
 
@@ -66,4 +66,4 @@
     }
 
     //]]>
-    </script>
+   
